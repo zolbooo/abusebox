@@ -8,6 +8,13 @@ pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8100 --reload
 ```
 
+Lint locally:
+
+```bash
+cd backend
+ruff check app tests
+```
+
 Default seeded admin user:
 
 - Username: `admin`

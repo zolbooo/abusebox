@@ -8,7 +8,8 @@ React + Vite frontend for the AbuseBox project.
 yarn dev      # start development server on port 3000
 yarn build    # production build
 yarn preview  # preview production build
-yarn lint     # eslint checks
+yarn lint     # alias for lint-frontend
+yarn lint-frontend  # eslint checks
 ```
 
 ## Environment
