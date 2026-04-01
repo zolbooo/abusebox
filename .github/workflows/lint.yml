@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint-frontend:
-    runs-on: [takumi-runner]
+    runs-on: takumi-runner
     defaults:
       run:
         working-directory: frontend
@@ -31,7 +31,7 @@ jobs:
         run: yarn lint-frontend
 
   lint-backend:
-    runs-on: [takumi-runner]
+    runs-on: takumi-runner
     defaults:
       run:
         working-directory: backend
